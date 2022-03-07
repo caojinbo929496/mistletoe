@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   # app名字
-  name: mistletoe-01-group-01
+  name: mistletoe-01
   # app存放的namespace，统一为argocd
   namespace: argocd
   annotations:
