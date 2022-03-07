@@ -2,7 +2,7 @@ spec:
   destination:
     server: https://kubernetes.default.svc
     # 定义业务所需的namespace
-    namespace1: lucktest-1
+    namespace1: mistletoe-01
   source:
-    repoURL: https://github.com/Fly-Luck/testgo
+    repoURL: https://github.com/caojinbo929496/mistletoe
     targetRevision: HEAD
