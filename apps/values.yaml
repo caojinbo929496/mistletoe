@@ -5,4 +5,4 @@ spec:
     namespace1: mistletoe-01
   source:
     repoURL: https://github.com/caojinbo929496/mistletoe
-    targetRevision: 1.0
+    targetRevision: HEAD
