@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   # app名字
-  name: mistletoe
+  name: mistletoe-01-group-01
   # app存放的namespace，统一为argocd
   namespace: argocd
   annotations:
@@ -17,7 +17,7 @@ spec:
   project: default
   # app中的定义来源
   source:
-    path: cloud-basic-1/group-1
+    path: group
     repoURL: {{ .Values.spec.source.repoURL }}
     targetRevision: {{ .Values.spec.source.targetRevision }}
   # 同步策略，建议关掉，因为git push就会触发argocd sync
